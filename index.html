@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="login-container">
+        <h1>Hello User!</h1>
+        <p class="subtitle">Sign in to continue</p>
+
+        <form class="login-form">
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username">
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email">
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password">
+            </div>
+
+            <div class="form-group">
+                <label for="confirm-password">Confirm Password</label>
+                <input type="password" id="confirm-password" name="confirm-password">
+            </div>
+
+            <button type="submit" class="sign-in-btn">Sign In</button>
+        </form>
+
+        <p class="or-text">or sign in with</p>
+
+        <div class="social-login">
+            <button type="button" class="social-btn">
+                <img src="asset/google.png" alt="Google" class="social-icon">
+                <span>Google</span>
+            </button>
+
+            <button type="button" class="social-btn">
+                <img src="asset/apple.png" alt="Apple" class="social-icon apple-icon"></span>
+                <span>Apple</span>
+            </button>
+        </div>
+
+        <p class="login-link">
+            Already have an account? <a href="login.html">Login</a>
+        </p>
+    </main>
+
+</body>
+</html>
